@@ -1,0 +1,31 @@
+#footer{
+    background: linear-gradient(0deg,#1c3643,#273b47 25%,#1e5372);
+  }
+
+#footer a{
+    color: #FFFFFF;
+  }
+
+.Contenedores{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ValorX, .ValorY{
+  width: 100px;
+  height: 25px;
+  border: 10px black;
+  margin: 10px;
+  background-color: gray;
+}
+#BtnCrear{
+  background-color: blue;
+  font-family: 'Balsamiq Sans', cursive;
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 20px 65px;
+}
+#BtnCrear:hover{
+  background-color:cadetblue;
+}
